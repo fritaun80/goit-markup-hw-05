@@ -205,7 +205,7 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0;
+  /* margin: 0; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -790,10 +790,6 @@ body {
 
 .works-link {
   text-decoration: none;
-  display: block;
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-list-item:focus,
