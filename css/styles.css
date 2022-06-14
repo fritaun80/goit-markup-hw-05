@@ -877,9 +877,7 @@ body {
 
   transform: translateY(100%);
 
-  transition-property: transform;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-link:hover .works-thumb-text,
@@ -939,9 +937,9 @@ body {
   fill: var(--bgc-btn-hover);
 }
 
-@keyframes layout-animation {
+/* @keyframes layout-animation {
   0% {
   }
   100 {
   }
-}
+} */
